@@ -1,4 +1,4 @@
-# FilesCollectByTime<br/>
+# BackupFilesCollectByTime<br/>
 Collect files by date<br/>
 Jika kamu punya beberapa berkas tertentu tapi berserakan dalam folder di mana-mana.<br/><br/>
 skrip shell ini membantu mengumpulkan ke dalam folder sesuai tahun-bulan-tanggal nya.<br/>
@@ -14,6 +14,7 @@ perintah skripnya.
 simpan skrip di root sdcard.
 <pre>android:~ # sh CollectFilesByTime.sh apk</pre><br/>
 apk hanya salah satu format yang didukung.<br/>
-kamu bisa memindah kan semua format yang kamu mau(zip/mp3/mp4), dengan syarat nama folder dan berkas tidak mengandung karakter spasi.
-
+kamu bisa memindah kan semua format yang kamu mau(zip/mp3/mp4), dengan syarat nama folder dan berkas tidak mengandung karakter spasi. <br/>
+update - backup berkas berdasarkan md5.
+<pre>sh BackupFilesMd5.sh format(mp4/mp3/mendukung semua tipe format)</pre>
 
